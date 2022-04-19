@@ -4,6 +4,8 @@ from time import sleep
 mixer.init()
 font.init()
 
+#коментарий нововведений
+
 score = 0
 
 win_width = 700
