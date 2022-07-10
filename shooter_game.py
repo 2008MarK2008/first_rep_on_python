@@ -8,8 +8,8 @@ font.init()
 
 score = 0
 
-win_width = 700
-win_height = 500
+win_width = 700 #ширина окна
+win_height = 500 #высота окна
 mw = display.set_mode((win_width, win_height))
 backround =  transform.scale(image.load('galaxy.jpg'), (win_width,win_height))
 mw.blit(backround, (0,0))
@@ -119,4 +119,4 @@ while game:
     clock.tick(60)
     if game_false:
         game = False
-sleep(5)
+sleep(2)
